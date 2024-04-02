@@ -1,0 +1,204 @@
+
+@font-face {
+  font-family: tomsHandwriting;
+  src: url(tomsHandwriting.ttf);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: tomsHandwriting;
+  height: 98vh; 
+  box-sizing: border-box;
+  font-weight: 100;
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  /* background-color: rgb(230, 230, 230); */
+}
+.lovebox {
+  margin: 0;
+  font-size: 4em;
+}
+
+main {
+  margin: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 14px;
+  /* background-color: beige; */
+}
+
+ul {
+  margin: 0;
+}
+
+.sender-name {
+  text-align: left;
+  font-weight: bold;
+  position: relative;
+  display: block;
+  padding: 5px 5px;
+  margin-bottom: -1px;
+  background-color: rgb(236, 236, 236);
+  border: 1px solid;
+}
+
+.inputOne, .inputTwo {
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-start;
+
+}
+
+input {
+  border: 2px solid black;
+}
+
+label {
+  font-size: 1em;
+}
+
+button {
+  font-size: 14px;
+  padding: 6px 3px;
+  margin-bottom: 0;
+  border-radius: 3px;
+  color: rgb(248, 0, 0);
+  background-color: rgb(255, 255, 255);
+  border: 2px solid black;
+  width: 80px;
+}
+
+button.send {
+  font-size: 28px;
+}
+
+button.nav {
+  font-size: 12px;
+  margin: 0px;
+  border-radius: 3px;
+  color: black;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid black;
+  width: 60px;
+}
+
+button.nav:hover {
+  background-color: rgb(216, 216, 216);
+}
+
+a.nav:visited, a.nav:link {
+  text-decoration: none;
+  color: black;
+}
+
+.buttons {
+  margin-top: 1em;
+}
+
+button.logout:hover, button.send:hover {
+  background-color: rgb(216, 216, 216);;
+}
+
+#story {
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#story td, #story th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#story tr:nth-child(even){
+  background-color: #2c3034;
+  color: white;
+}
+
+#story tr:hover {
+  background-color: #ddd;
+}
+
+#story th {
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: left;
+background-color: #212529;
+color: white;
+}
+
+.footerImage {
+  margin-top: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  flex-direction: row;
+  /* background-color: lightgreen; */
+}
+
+footer a.github {
+  float: right;
+  padding-right: .3em;
+  padding-bottom: .3em;
+  font-size: 2em;
+  color:red;
+}
+
+foreignObject {
+  display: flex;
+  align-items: center;
+}
+
+textarea {
+  border: 2px solid black;
+}
+
+textarea::placeholder {
+  font-size: 2em;
+}
+
+textarea.send {
+  background-color: white;
+}
+
+@media (max-height: 600px) {
+header {
+  display: none;
+}
+footer {
+  display: none;
+}
+main {
+  flex: 1 100vh;
+  flex-direction: row;
+}
+
+.flex {
+  flex-direction: column;
+}
+
+.picture-box {
+  display: none;
+}
+}
+
+@media (max-width: 600px) {
+header {
+  display: none;
+  }
+  footer {
+  display: none;
+  }
+}
+
