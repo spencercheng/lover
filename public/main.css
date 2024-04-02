@@ -1,13 +1,8 @@
 
-@font-face {
-  font-family: tomsHandwriting;
-  src: url(tomsHandwriting.ttf);
-}
-
 body {
   display: flex;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   flex-direction: column;
-  font-family: tomsHandwriting;
   height: 98vh; 
   box-sizing: border-box;
   font-weight: 100;

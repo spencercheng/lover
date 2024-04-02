@@ -4,18 +4,18 @@
 
 ### Elevator pitch
 
-Have you ever wanted to leave a love note for that special someone but forgot or been too busy? The LoveBox application allows you to send a love note to your sweetheart at any time. When a message is sent to your companion's LoveBox the heart on the box spins, and keeps your significan other's heart spinning in anticipation. You'll be able to document your chain of love notes so they're never lost. A spontaneous gift to your love will never be missed again.
+Presenting BentoBox: Your convenient solution for spreading love and joy effortlessly. Craft personalized surprises for your loved ones with ease, ensuring no moment goes uncelebrated. With each delivery, hearts dance with anticipation, creating memorable experiences that last a lifetime. BentoBox keeps the magic alive, allowing you to cherish every spontaneous act of affection. Say goodbye to missed opportunities and hello to endless expressions of love with BentoBox.
 
 ### Design
 
-LoveBox home page.
+BentoBox home page.
 
-LoveBox login page.
+BentoBox login page.
 
-Sequence diagram demonstrating interaction with LoveBox.
+Sequence diagram demonstrating interaction with BentoBox.
 
-![Screenshot of the LoveBox login page](https://github.com/mmosiahc/Startup/blob/main/LoveBoxLoginSample.png) 
-![Screenshot of the LoveBox home page](https://github.com/mmosiahc/Startup/blob/main/loveBoxHome.png)
+![Screenshot of the BentoBox login page](https://github.com/mmosiahc/Startup/blob/main/LoveBoxLoginSample.png) 
+![Screenshot of the BentoBox home page](https://github.com/mmosiahc/Startup/blob/main/loveBoxHome.png)
 ![Image of sequence diagram](https://github.com/mmosiahc/Startup/blob/main/loveBoxSequenceDiagram.png)
 
 ### Key features

@@ -78,7 +78,7 @@ class LoveBox{
 
 const lovebox = new LoveBox();
 
-function shareHeart()
+function shareSushi()
 {
   event.preventDefault();
   lovebox.sendMessage(lovebox.getPlayerName(), HeartShareEvent, "heart")
