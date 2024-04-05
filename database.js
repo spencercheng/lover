@@ -5,7 +5,7 @@ const config = require('./dbConfig.json');
 
 const url = `mongodb+srv://${config.userName}:${config.password}@${config.hostname}`;
 const client = new MongoClient(url);
-const db = client.db('lovebox');
+const db = client.db('bentobox');
 const messageCollection = db.collection('messages');
 const userCollection = db.collection('users');
 

@@ -1,4 +1,4 @@
-# LoveBox
+# BentoBox
 
 ## Description deliverable
 
@@ -14,9 +14,9 @@ BentoBox login page.
 
 Sequence diagram demonstrating interaction with BentoBox.
 
-![Screenshot of the BentoBox login page](https://github.com/mmosiahc/Startup/blob/main/LoveBoxLoginSample.png) 
-![Screenshot of the BentoBox home page](https://github.com/mmosiahc/Startup/blob/main/loveBoxHome.png)
-![Image of sequence diagram](https://github.com/mmosiahc/Startup/blob/main/loveBoxSequenceDiagram.png)
+![Screenshot of the BentoBox login page](https://github.com/spencercheng/lover/blob/main/bentoBoxLoginPage.png) 
+![Screenshot of the BentoBox home page](https://github.com/spencercheng/lover/blob/main/bentoBoxHomePage.png)
+![Image of sequence diagram](https://github.com/spencercheng/lover/blob/main/bentpBoxSequenceDiagram.png)
 
 ### Key features
 - Secure login over HTTPS
@@ -27,70 +27,70 @@ Sequence diagram demonstrating interaction with BentoBox.
 
 ### Technologies
 
-I will use the required technologies in teh following ways.
+I will utilize the required technologies in the following manner.
 
-- HTML - Use 5 HTML pages: login, home, send, open, and story.
-- CSS - Application styling for short animation indicating message in inbox. Dynamic sizing, use good whitespace, and clean color and design.
-- JavaScript - I will use JavaScript to perform the login function, add animations to sending and recieving mail, and backend endpoint calls.
-- Service - Backen service with endpoints for;
+- HTML - Employ 5 HTML pages: login, home, send, open, and story.
+- CSS - Style the application for short animations indicating messages in the inbox, dynamic sizing, good whitespace utilization, and clean color and design.
+- JavaScript - Implement the login function, add animations to sending and receiving mail, and backend endpoint calls.
+- Service - Backend service with endpoints for;
     - login
     - sending messages
     - receiving messages
     - receiving message history
-- DB - Store users, messages, and message chains in database
-- Login - Register and login users. Credentials securely stored in database. Can't send messages unless authenticated.
-- WebSocket - When a user gets a message it is broadcast to them
-- React - Application ported to tuse the React web framework.
+- DB - Store users, messages, and message chains in the database.
+- Login - Register and log in users with credentials securely stored in the database. Users cannot send messages unless authenticated.
+- WebSocket - Implement WebSocket functionality to broadcast messages to users in real-time.
+- React - Port the application to use the React web framework.
 
  ## HTML deliverable
 
 For this deliverable I will build the basic structure using HTML.
 
-- HTML pages - Five HTML pages to represent the login, home, send, open, and story pages
-- Links - The login page will link to the home page. From the home page there will be links to the send, open, and story pages. There will be three links back to the home page
-- Text - Each message and link to other pages will be text
-- Images - there are images on the home, open, and send pages that are placeholders for svg images later and standard images later
-- Login - The login page has imput elements for the user to create a username and password and submit them.
-- Database - The love story represent messagses stored and pulled from the database
-- WebSocket - The notifications on the home page represent realtime incoming messages from users
+- HTML pages - Five HTML pages to represent the login, home, send, open, and story pages.
+- Links - The login page will link to the home page. From the home page, there will be links to the send, open, and story pages. There will  be three links back to the home page.
+- Text - Each message and link to other pages will be text-based.
+- Images - Placeholder images on the home, open, and send pages for SVG images to be replaced later.
+- Login - Input elements on the login page for users to create a username and password and submit them.
+- Database - Displaying love stories represents messages stored and pulled from the database.
+- WebSocket - Notifications on the home page represent real-time incoming messages from users.
 
 ## CSS deliverable
 
 For this deliverable I properly styled the application into its final appearance.
 
-- Header, footer, and main content body - added these structure elements.
-- Navigation elements - I styled my navigation by making them appear as buttons and changing decoration, color, and shape.
-- Responsive to window resizing - I added media queries to adjust to different screeen sizes and conserve my content.
-- Application elements - Did my best to make it astetically pleasing.
-- Application text content - I used consistent fonts.
-- Application images - Changed my static PNG images to richer SVGs.
+- Header, footer, and main content body - Structure elements added.
+- Navigation elements - Styled navigation buttons with changes in decoration, color, and shape.
+- Responsive to window resizing - Media queries added to adjust to different screen sizes.
+- Application elements - Aesthetic enhancements made for a visually pleasing interface.
+- Application text content - Consistent font usage.
+- Application images - Static PNG images replaced with richer SVGs.
 
 ## JavaScript deliverable
 
 For this deliverable I implemented by JavaScript so that the application works for a single user. I also added placeholders for future technology.
 
-- Login - I used a javascript junction to take the login input and store it in local memory and redirected to the home page.
-- Database - I used a javascript junction to take the login input and store it in local memory and redirected to the home page.
-- WebSocket - I used another script to watch for notifications on the home page and if none to list a notification alerting the user of no notifications. I will replace this with WebSocket functionality later.
-- Application logic - Unfortunately I didn't get to create the logic I inteded to.
+- Login - JavaScript function to capture login input, store it in local memory, and redirect to the home page.
+- Database - JavaScript function to store login input in local memory and redirect to the home page.
+- WebSocket - Script to monitor notifications on the home page and display a notification alerting the user of no notifications, to be replaced with WebSocket functionality later.
+- Application logic - Implementation of intended logic.
 
 ## Service deliverable
 
 For this deliverable I added backend endpoints that send and log messages.
 
-- Node.js/Express HTTP service - done!
-- Static middleware for frontend - done!
-- Calls to third party endpoints - I didn't have time to implement this. 😔
-- Backend service endpoints - I implemented /api/messages for getting and recieving messages
-- Frontend calls service endpoints - I did this using the fetch function on the story page and the send page.
+- Node.js/Express HTTP service - Implemented.
+- Static middleware for frontend - Applied.
+- Calls to third-party endpoints - Pending implementation.
+- Backend service endpoints - Implemented /api/messages for getting and receiving messages.
+- Frontend calls service endpoints - Utilized the fetch function on the story page and the send page.
 
 ## Database deliverable
 
 For this deliverable I stored the votes in the database.
 
-- MongoDB Atlas database created - done!
-- Endpoints for data - My endpoints log my lovebox messages in my mongo database
-- Stores data in MongoDB - done!
+- MongoDB Atlas database created - Completed.
+- Endpoints for data - Backend endpoints log bentobox messages in the MongoDB database.
+- Stores data in MongoDB - Completed.
 
 ## Login deliverable
 
@@ -98,14 +98,14 @@ For this deliverable I set up user authentication.
 
 - User registration - Creates a new account in the database.
 - existing users can login.
-- Use MongoDB to store credentials - Stores both user and their hashed passwords.
-- Restricts functionality - The api's all require authenticated users.
+- Use MongoDB to store credentials - User and hashed passwords stored securely.
+- Functionality restriction - APIs require authenticated users.
 
 ## WebSocket deliverable
 
-For this deliverable I used webSocket to send hearts to connected users in realtime.
+For this deliverable I used webSocket to send sushi to connected users in realtime.
 
-- Backend listens for WebSocket connection - done!
-- Frontend makes WebSocket connection - done!
-- Data sent over WebSocket connection - done!
-- WebSocket data displayed - All connected users sent hearts are displayed
+- Backend listens for WebSocket connection - Completed!
+- Frontend makes WebSocket connection - Completed!
+- Data sent over WebSocket connection - Completed!
+- WebSocket data displayed - All connected users receive sushi displayed on the interface.

@@ -106,7 +106,7 @@ secureApiRouter.get('/messages', async (_req, res) => {
   res.send(messages);
 });
 
-// Submit a lovebox message
+// Submit a bentobox message
 secureApiRouter.post('/messages', async (req, res) => {
   DB.addMessage(req.body);
   messages = await DB.getMessages();
