@@ -16,7 +16,7 @@ Sequence diagram demonstrating interaction with BentoBox.
 
 ![Screenshot of the BentoBox login page](https://github.com/spencercheng/lover/blob/main/bentoBoxLoginPage.png) 
 ![Screenshot of the BentoBox home page](https://github.com/spencercheng/lover/blob/main/bentoBoxHomePage.png)
-![Image of sequence diagram](https://github.com/spencercheng/lover/blob/main/bentpBoxSequenceDiagram.png)
+![Image of sequence diagram](https://github.com/spencercheng/lover/blob/main/bentoBoxSequenceDiagram.png)
 
 ### Key features
 - Secure login over HTTPS
