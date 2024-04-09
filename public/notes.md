@@ -2,13 +2,13 @@
 
 ## Git
 
-I've learned about how to use version control through Git. It's really cool.
+I have learned how to use Git's version control using commits, pushing, and pulling.
 
-Imporant commands:
-- `li` list files in directory
-- `mkdir` make directory
-- `pwd` present working directory
-- `cd` change directory
+Imporant commands I was able to practice using:
+- `li` 
+- `mkdir` 
+- `pwd` 
+- `cd` 
 - `git add`
 - `git commit`
 - `git push`
@@ -16,11 +16,11 @@ Imporant commands:
 - `git fetch`
 - `git status`
 
-If you need a reference to more commands visit the class page on the [console](https://github.com/webprogramming260/.github/blob/main/profile/essentials/console/console.md) and [Git](https://github.com/webprogramming260/.github/blob/main/profile/essentials/gitHub/gitHub.md#github)
 
 ## The Internet and Web Servers
 
 I learned about how the internet works. I also learned about web servers. I learned about Amazon EC2 Web Service. I made a instance of a server and accessed it through a remote shell. It was cool to understand how everything I was doing was functioning. I then assigned an elastic IP address: 44.198.237.228. 
+I learned about the sequence of the internet servers and their way of interacting with each other. I also learned about how to utlize 
 
 The command to remote shell into the server was `ssh -i [key pair file] ubuntu@[ip address]`.
 
